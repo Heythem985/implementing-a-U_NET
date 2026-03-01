@@ -39,10 +39,4 @@ If you have CUDA, install a matching `torch` build from https://pytorch.org.
 - To evaluate predictions visually after training, load the model weights and run `torch.sigmoid(model(img))`.
 - For reproducible experiments, seed NumPy and torch RNGs in your scripts.
 
-**Next steps I can help with**
-- Create a `requirements.txt` or `pyproject.toml`.
-- Add an evaluation/visualization script that loads `unet_small.pth` and shows predictions.
-- Add command-line args to `train.py` for hyperparameters.
 
-**License**
-- MIT
